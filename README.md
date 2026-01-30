@@ -4,16 +4,16 @@
 
 **Change the CPU ABI lists from:**
 ```properties
-ro.*.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
-ro.*.product.cpu.abilist32=armeabi-v7a,armeabi
-ro.*.product.cpu.abilist64=arm64-v8a
+ro.odm.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist64=arm64-v8a
 ```
 
 **To:**
 ```properties
-ro.*.product.cpu.abilist=arm64-v8a
-ro.*.product.cpu.abilist32=
-ro.*.product.cpu.abilist64=arm64-v8a
+ro.odm.product.cpu.abilist=arm64-v8a
+ro.odm.product.cpu.abilist32=
+ro.odm.product.cpu.abilist64=arm64-v8a
 ```
 
 **Add these lines to the end of the file:**
