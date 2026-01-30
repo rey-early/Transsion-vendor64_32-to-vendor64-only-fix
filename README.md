@@ -35,6 +35,8 @@ Remove the legacy OpenMAX (OMX) entry.
 
 ### 3. Update Mediatek Media C2 Service
 
+**Note:** Skip if already using `-64b`.
+
 Check the initialization script located at `vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc`.
 
 **Change from:**
