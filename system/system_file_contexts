@@ -1,0 +1,13 @@
+/system/system/bin/linker u:object_r:system_linker_exec:s0
+/system/system/lib/liblog\.so u:object_r:system_lib_file:s0
+/system/system/lib/libc.so u:object_r:system_lib_file:s0
+/system/system/lib/libc\+\+\\.so u:object_r:system_lib_file:s0
+/system/system/lib/libvndksupport\.so u:object_r:system_lib_file:s0
+/system/system/lib/libdl.so u:object_r:system_lib_file:s0
+/system/system/lib/libdl_android.so u:object_r:system_lib_file:s0
+/system/system/lib/libm.so u:object_r:system_lib_file:s0
+/system/system/lib/libselinux.so u:object_r:system_lib_file:s0
+/system/system/lib/libpcre2.so u:object_r:system_lib_file:s0
+/system/system/lib/libpackagelistparser.so u:object_r:system_lib_file:s0
+/system/system/lib/libcgrouprc.so u:object_r:system_lib_file:s0
+/system/system/lib/libbase.so u:object_r:system_lib_file:s0
