@@ -54,3 +54,16 @@ service android-hardware-media-c2-hal-1-2 /vendor/bin/hw/android.hardware.media.
 ```
 ### 4. **Copy and replace** all files in the target directory.
 **Append** the necessary configurations to `system_file_contexts` and `system_fs_config`
+
+---
+
+### 5. Fix for triple slot sim (2 sim + 1 sd)
+**Add to build.prop**
+```properties
+ro.boot.product.hardware.sku=tsts
+persist.radio.multisim.config=tsts
+ro.telephony.sim.count=3
+telephony.active_modems.max_count=3
+persist.vendor.radio.msimmode=tsts
+ro.vendor.radio.max.multisim=tsts
+```
