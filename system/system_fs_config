@@ -11,3 +11,6 @@ system/system/lib/libpcre2.so 0 0 0644
 system/system/lib/libpackagelistparser.so 0 0 0644
 system/system/lib/libcgrouprc.so 0 0 0644
 system/system/lib/libbase.so 0 0 0644
+system/system/lib/liblzma.so 0 0 0644
+system/system/lib/libprocinfo.so 0 0 0644
+system/system/lib/libunwindstack.so 0 0 0644
